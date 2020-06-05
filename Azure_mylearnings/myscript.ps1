@@ -1,3 +1,3 @@
 #!/bin/bash
-Install-WindowsFeature -name Web-Server -IncludeManagementTools
+Add-WindowsFeature Web-Server
 Set-Content -Path "C:\\inetpub\\wwwroot\\Default.htm" -Value "Azure - great learning"
